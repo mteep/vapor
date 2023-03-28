@@ -30,7 +30,7 @@ let package = Package(
         .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.10.0"),
 
         // Sugary extensions for the SwiftNIO library
-        .package(url: "https://github.com/mteep/async-kit.git", from: "1.15.0"),
+        .package(url: "https://github.com/mteep/async-kit.git", branch: "xcode-on-big-sur"),
 
         // 💻 APIs for creating interactive CLI tools.
         .package(url: "https://github.com/vapor/console-kit.git", from: "4.0.0"),
